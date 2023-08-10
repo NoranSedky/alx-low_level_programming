@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Entry poin
+ *
+ * Description: A C program that prints sizeof
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	printf("Size of a char: %u byte(s)\n", sizeof(char));

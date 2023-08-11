@@ -14,7 +14,7 @@ int main(void)
 
 	while (letter >= 'a')
 	{
-		putchat(letter);
+		putchar(letter);
 		letter--;
 	}
 	putchar('\n');

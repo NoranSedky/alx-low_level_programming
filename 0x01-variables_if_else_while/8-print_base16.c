@@ -10,10 +10,13 @@
 
 int main(void)
 {
-	int n;
+	int i;
+	char letter;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
+	for (i = 0; i < 10; i++)
+		putchar(i + '0');
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }

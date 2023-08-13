@@ -14,6 +14,8 @@ int main(void)
 	int j;
 	int num1;
 	int num2;
+	int num3;
+	int num4;
 
 	for (i = 0; i <= 99; i++)
 	{

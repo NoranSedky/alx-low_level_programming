@@ -3,9 +3,11 @@
 /**
  * is_prime_number - Checks if a number is a prime number.
  * @n: The input number.
+ * @divisor: int.
  * Return: 1 if n is prime, 0 otherwise.
  */
 
+int is_prime_helper(int n, int divisor);
 int is_prime_number(int n)
 {
 	if (n <= 1)
@@ -21,8 +23,8 @@ int is_prime_number(int n)
 /**
  * is_prime_helper - Checks if a number is a prime number.
  * @n: The input number.
- * @divisor: int
- * Return: int
+ * @divisor: int.
+ * Return: int.
  */
 
 int is_prime_helper(int n, int divisor)

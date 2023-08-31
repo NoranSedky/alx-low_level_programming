@@ -6,20 +6,20 @@
  * @val: int.
  * Return: Natural square root.
  */
-int sqrt(int n, int val);
+int square(int n, int val);
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (square(n, 1));
 }
 
 /**
- * sqrt - helper
+ * square - helper
  * @n: The input number.
  * @val: sqare root.
  * Return: int
  */
 
-int sqrt(int n, int val)
+int square(int n, int val)
 {
 	if (val * val == n)
 	{
@@ -27,7 +27,7 @@ int sqrt(int n, int val)
 	}
 	else if (val * val < n)
 	{
-		return (sqrt(n, val + 1));
+		return (square(n, val + 1));
 	}
 	else
 	{
